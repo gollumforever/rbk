@@ -20,9 +20,14 @@ export default function Home() {
 
 			<main className={styles.main}>
 				<h1 className={styles.h1}>rizwana</h1>
+
 				<p className={styles.eyebrow}>[ridhh-waa-na] <span>noun</span></p>
+
+				{/* <img src="/rizbizkits-logo.png" alt="RBK" className={styles.rbk}/> */}
+
+				
 				<p className={styles.h2}>
-				<span className={styles.counter}>1</span>A mix of a software developer, polymathic designer, podcast rambler, and childhood poet. 
+				<span className={styles.counter}>1</span>A mix of a <a href="https://github.com/RizBizKits">software developer</a>, polymathic designer, <a href="http://nott.tech/rizpod">podcast rambler</a>, and <a href="https://www.instagram.com/tinkererofwords/">childhood poet</a>. 
 				<span className={styles.counter}>2</span>A third culture kid with a suitcase of hellos and goodbyes from homes in different places.
 				<span className={styles.counter}>3</span>A work-in-progress.
 				</p>

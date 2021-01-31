@@ -50,10 +50,29 @@
   margin-bottom: 0;
 }
 
+/* 
+.desc {
+  display: inline-block;
+  flex-direction: column;
+  flex: 0 0 auto;
+  flex-wrap: nowrap;
+}
+
+
+.desc::after{
+  display: block;
+  content: '';
+  height: 1px;
+  width: 100%;
+  background-color: #fffc00;
+  margin: 20px 0 0;
+} */
 
 .eyebrow {
   color: #fffc00;
   font-size: 1.3em;
+  /* display: inline-block;
+  float:left; */
 
 }
 
@@ -179,6 +198,14 @@
 
 .logo {
   height: 1em;
+}
+
+.rbk {
+  width: 100px;
+  display: inline;
+  align-items:center;
+  float: right;
+
 }
 
 @media (max-width: 600px) {

@@ -1,0 +1,43 @@
+.footer {
+    max-width: 760px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .caps {
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+  }
+  
+  .footer p, .footer a {
+    color: #F5FFFA;
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+    margin: 0;
+  }
+  
+  .footer_icons {
+    margin: 10px 0 0;
+  }
+  
+  .footer a {
+    background: none;
+    margin: 0 8px;
+    opacity: 0.8;
+  }
+  
+  .footer a:first-child {
+    margin-left: 0;
+  }
+  
+  .footer a:hover {
+    opacity: 1;
+  }
+  
+  
+  

@@ -1,31 +1,31 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Footer from './footer'
 
 export default function Home() {
 	return (
 		<div className={styles.container}>
 			<Head>
 				<title>Rizwana Akmal Khan | Home</title>
-
-
 				<link rel="preconnect" href="https://fonts.gstatic.com"/>
 				<link rel="icon" href="/favicon.ico" />
-
-
-				{/* <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet"/> */}
-
 				<link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"/>
 				<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet"/>
 			</Head>
 
+			{/* <nav className={styles.nav}>
+				<img src="/rizbizkits-logo.png" alt="RBK" className={styles.rbk}/>
+
+				<ul>
+					<li><a href="/blog">Blog</a></li>
+					<li><a href="/blog">Projects</a></li>
+				</ul>
+			</nav> */}
+
 			<main className={styles.main}>
 				<h1 className={styles.h1}>rizwana</h1>
-
 				<p className={styles.eyebrow}>[ridhh-waa-na] <span>noun</span></p>
-
 				{/* <img src="/rizbizkits-logo.png" alt="RBK" className={styles.rbk}/> */}
-
-				
 				<p className={styles.h2}>
 				<span className={styles.counter}>1</span>A mix of a <a href="https://github.com/RizBizKits">software developer</a>, polymathic designer, <a href="http://nott.tech/rizpod">podcast rambler</a>, and <a href="https://www.instagram.com/tinkererofwords/">childhood poet</a>. 
 				<span className={styles.counter}>2</span>A third culture kid with a suitcase of hellos and goodbyes from homes in different places.
@@ -37,9 +37,7 @@ export default function Home() {
 				</p>
 			</main>
 
-			<footer className={styles.footer}>
-		
-			</footer>
+			<Footer></Footer>
 		</div>
 	)
 }

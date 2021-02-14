@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    max-width: 760px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1em 0;
+}
+
+.nav_list {
+    color: #fffc00;
+    margin: 0;
+}
+
+.nav_list__items {
+    display: inline-block;
+    margin: 0 0 0 1.5em;
+}
+
+.nav_list__items a {
+    background-image: none;
+    color: #fffc00;
+    font-weight: 600;
+}
+
+.nav_list__items a:hover {
+    color: #F5FFFA;
+}
+
+.rbk {
+    width: 80px;
+}

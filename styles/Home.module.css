@@ -49,6 +49,7 @@
   -moz-text-fill-color: transparent; */
 
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 
@@ -169,15 +170,6 @@
 
 .logo {
   height: 1em;
-}
-
-.nav {
-  display: flex;
-  flex-direction: row;
-}
-
-.rbk {
-  width: 80px;
 }
 
 @media (max-width: 600px) {

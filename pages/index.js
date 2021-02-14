@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Footer from './footer'
+import Nav from './nav'
 
 export default function Home() {
 	return (
@@ -13,18 +14,13 @@ export default function Home() {
 				<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet"/>
 			</Head>
 
-			{/* <nav className={styles.nav}>
-				<img src="/rizbizkits-logo.png" alt="RBK" className={styles.rbk}/>
-
-				<ul>
-					<li><a href="/blog">Blog</a></li>
-					<li><a href="/blog">Projects</a></li>
-				</ul>
-			</nav> */}
+			<Nav></Nav>
 
 			<main className={styles.main}>
 				<h1 className={styles.h1}>rizwana</h1>
 				<p className={styles.eyebrow}>[ridhh-waa-na] <span>noun</span></p>
+
+
 				{/* <img src="/rizbizkits-logo.png" alt="RBK" className={styles.rbk}/> */}
 				<p className={styles.h2}>
 				<span className={styles.counter}>1</span>A mix of a <a href="https://github.com/RizBizKits">software developer</a>, polymathic designer, <a href="http://nott.tech/rizpod">podcast rambler</a>, and <a href="https://www.instagram.com/tinkererofwords/">childhood poet</a>. 

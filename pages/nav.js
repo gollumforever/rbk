@@ -9,8 +9,10 @@ export default function Nav() {
             {/* <img src="/rizbizkits-logo.png" alt="RBK" className={styles.rbk}/> */}
 
             <ul className={styles.nav_list}>
-                <li className={styles.nav_list__items}><a href="/blog">Blog</a></li>
+                <li className={styles.nav_list__items}><a href="/blog">Prose</a></li>
                 <li className={styles.nav_list__items}><a href="/blog">Projects</a></li>
+                <li className={styles.nav_list__items}><a href="/blog">Poems</a></li>
+
             </ul>
         </nav>
     )

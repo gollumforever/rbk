@@ -29,5 +29,6 @@
 }
 
 .rbk {
-    width: 80px;
+    width: 70px;
+    filter: drop-shadow(2px 2px 5px #D0D0D0); 
 }

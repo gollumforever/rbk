@@ -18,7 +18,20 @@ export default function Home() {
 
 			<main className={styles.main}>
 				<h1 className={styles.h1}>rizwana</h1>
-				<p className={styles.eyebrow}>[ridhh-waa-na] <span>noun</span></p>
+
+				{/* <p className={styles.eyebrow}>[ridhh-waa-na] <span>noun</span></p> */}
+
+
+				<div className={styles.col}>
+					<a href="https://rizwanakhan.com/" target="_blank" rel="noopener"><img src="/icons/volume-lg.svg"/></a>
+					<p className={styles.eyebrow}>[ridhh-waa-na]</p>
+					<span>noun</span>
+				</div>
+
+				{/* <div className={styles.col}>
+					<img src="/rbk-lined-bright.png" alt="RBK" className={styles.rbk}/>
+					<p className={styles.eyebrow}>[ridhh-waa-na] <span>noun</span></p>
+				</div> */}
 
 
 				{/* <img src="/rizbizkits-logo.png" alt="RBK" className={styles.rbk}/> */}

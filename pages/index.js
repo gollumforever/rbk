@@ -8,7 +8,16 @@ export default function Home() {
 		<div className={styles.container}>
 			<Head>
 				<title>Rizwana Akmal Khan | Home</title>
+				<meta name="description" content="You've arrived at the website for A Human Being, by the name of Rizwana Akmal Khan. Make yourself at home!"/>
+				
+				<meta name="twitter:card" content="summary" />
+				<meta name="twitter:site" content="@rizbizkits" />
+				<meta name="twitter:title" content="Rizwana Akmal Khan | Home" />
+				<meta name="twitter:description" content="You've arrived at the website for A Human Being, by the name of Rizwana Akmal Khan. Make yourself at home!" />
+				<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
+				
 				<link rel="preconnect" href="https://fonts.gstatic.com"/>
+				<link rel="shortcut icon" href="/favicon.ico" />
 				<link rel="icon" href="/favicon.ico" />
 				<link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"/>
 				<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet"/>
@@ -19,22 +28,11 @@ export default function Home() {
 			<main className={styles.main}>
 				<h1 className={styles.h1}>rizwana</h1>
 
-				{/* <p className={styles.eyebrow}>[ridhh-waa-na] <span>noun</span></p> */}
-
-
 				<div className={styles.col}>
-					<a href="https://rizwanakhan.com/" target="_blank" rel="noopener"><img src="/icons/volume-lg.svg"/></a>
+					<a href="https://rizwanakhan.com/" target="_blank" rel="noopener"><img src="/icons/volume-lg.svg" alt="speaker"/></a>
 					<p className={styles.eyebrow}>[ridhh-waa-na]</p>
 					<span>noun</span>
 				</div>
-
-				{/* <div className={styles.col}>
-					<img src="/rbk-lined-bright.png" alt="RBK" className={styles.rbk}/>
-					<p className={styles.eyebrow}>[ridhh-waa-na] <span>noun</span></p>
-				</div> */}
-
-
-				{/* <img src="/rizbizkits-logo.png" alt="RBK" className={styles.rbk}/> */}
 				<p className={styles.h2}>
 				<span className={styles.counter}>1</span>A mix of a <a href="https://github.com/RizBizKits">software developer</a>, polymathic designer, <a href="http://nott.tech/rizpod">podcast rambler</a>, and <a href="https://www.instagram.com/tinkererofwords/">childhood poet</a>. 
 				<span className={styles.counter}>2</span>A third culture kid with a suitcase of hellos and goodbyes from homes in different places.

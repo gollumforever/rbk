@@ -13,7 +13,7 @@ export default function Footer() {
                         <a href="https://rizwanakhan.com/rss.xml" target="_blank" rel="noopener"><img src="/icons/rss.svg"/></a>
                     </div>
                     <div className={styles.footer_icons__rewind}>
-                        <a href="https://rizwanakhan.com/" target="_blank" rel="noopener"><img src="/icons/skip-back.svg"/>V1</a>
+                        <a href="https://v1.rizwanakhan.com/" target="_blank" rel="noopener"><img src="/icons/skip-back.svg"/>V1</a>
                     </div>
                 </div>
 			</footer>

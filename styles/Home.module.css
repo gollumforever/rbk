@@ -7,7 +7,6 @@
   justify-content: center;
   align-items: center;
   background-color: #15113E;
-
 }
 
 .main {
@@ -59,26 +58,11 @@
   margin: 0;
 }
 
-/* .eyebrow::after {
-  display: block;
-  content: '';
-  height: 1px;
-  width: 100%;
-  background-color: #fffc00;
-  margin: 20px 0 0;
-} */
-
-/* .eyebrow span {
-  font-style: italic;
-  margin: 0 0 0 20px;
-} */
 
 .col span {
   color: #fffc00;
   font-style: italic;
   margin: 0 0 0 0.4em;
-  /* align-self: flex-end; */
-
 }
 
 .col {
@@ -95,6 +79,9 @@
   text-decoration: none;
   background: none;
   margin-right: 1em;
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.3;
 }
 
 .col img {
@@ -115,49 +102,11 @@
 } 
 
 
-@-webkit-keyframes filters {
-  0%{ 
-    filter: drop-shadow(0px 0px 2px #fff); 
-  }
-  20% { 
-    filter: drop-shadow(1px 1px 2px #fff); 
-  }
-  40% { 
-    filter: drop-shadow(1.2px 1.2px 2px #fff); 
-  }
-  60% { 
-    filter: drop-shadow(1.2px 1.2px 2px #fff); 
-  }
-  80% { 
-    filter: drop-shadow(1px 1px 2px #fff); 
-  }
-  100% { 
-    filter: drop-shadow(0px 0px 2px #fff); 
-  }
-}
-
-
 .rbk {
   width: 60px;
   margin-right: 2em;
-  filter: drop-shadow(2px 2px 5px #fff); 
-  /* transition: all 0.2s ease-in-out; */
-  /* animation-name: filters;
-  animation-duration: 0.9s;
-  animation-iteration-count: infinite; */
+  filter: drop-shadow(2px 2px 5px #fff);
 }
-
-
-
-/* .col::after {
-  display: block;
-  content: '';
-  height: 1px;
-  width: 100%;
-  background-color: #fffc00;
-  margin: 20px 0 0;
-}  */
-
 
 
 .lemon {
@@ -179,12 +128,6 @@
 
 .counter {
   color: #fffc00;
-  /* width: 42px;
-    height: 42px;
-    padding: 10px;
-    border-radius: 50%;
-    text-align: center;
-    border: 2px solid #fffc00; */
   font-family: 'Arbutus Slab', serif;
 
 
@@ -204,12 +147,6 @@
 .counter:first-child {
   margin-left: 0;
 }
-
-/* .footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .title a {
   color: #0070f3;
@@ -264,5 +201,10 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  .container {
+    height: auto;
+    min-height: auto;
   }
 }

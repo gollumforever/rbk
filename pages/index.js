@@ -43,7 +43,6 @@ export default function Home() {
 					<span className={styles.lemon}>Associated with:</span>  co-founding <a href="https://projectfunction.io/">ProjectFunction</a>, working at <a href="https://vercel.com/">Vercel</a>, tweeting <a href="https://twitter.com/rizbizkits">a ton</a>.
 				</p>
 			</main>
-
 			<Footer></Footer>
 		</div>
 	)

@@ -5,8 +5,6 @@ import Nav from '../nav'
 import Footer from '../footer'
 
 
-
-
 function ProseTemplate({ content, data }) {
     // This holds the data between `---` from the .md file
     const frontmatter = data

@@ -14,7 +14,7 @@ export default function Home() {
 				<meta name="twitter:site" content="@rizbizkits" />
 				<meta name="twitter:title" content="Rizwana Akmal Khan | Home" />
 				<meta name="twitter:description" content="You've arrived at the website for A Human Being, by the name of Rizwana Akmal Khan. Make yourself at home!" />
-				<meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
+				<meta name="twitter:image" content="/summary_card.png" />
 				
 				<link rel="preconnect" href="https://fonts.gstatic.com"/>
 				<link rel="shortcut icon" href="/favicon.ico" />

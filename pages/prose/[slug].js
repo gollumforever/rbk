@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
 import Nav from '../nav'
 import { getAllPostSlugs, getPostData } from '../../lib/posts'
 import Footer from '../footer'

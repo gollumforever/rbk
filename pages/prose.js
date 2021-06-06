@@ -6,8 +6,6 @@ import Nav from './nav'
 import Date from '../components/date'
 import Footer from './footer'
 
-
-
 export default function Prose({ allPostsData }) {
     return (
         <div className="outer">

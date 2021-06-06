@@ -13,7 +13,7 @@ export default function Prose({ allPostsData }) {
             <section>
                 <div className={"pt-3 pb-2"}>
                     <h1 className="heading">Prose</h1>
-                    <p className="subheading">A (sometimes) loose conglomeration of my thoughts dressed into words i.e. <span className="i">meaningful stuff tends to reside in <Link href="/poems"><a>my poems</a></Link> but occasionally, I'll piece together something that's more 'everyday writing'. </span></p>
+                    <p className="subheading">A (sometimes) loose conglomeration of my thoughts dressed into words i.e. <span className="i">meaningful stuff tends to reside in <a href="https://www.instagram.com/tinkererofwords/" target="_blank">my poems</a> but occasionally, I'll piece together something that's more 'everyday writing'. </span></p>
                 </div>
                 <div className={"pb-2"}>
 

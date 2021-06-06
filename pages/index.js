@@ -19,7 +19,7 @@ export default function Home() {
 				<link rel="preconnect" href="https://fonts.gstatic.com"/>
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<link rel="icon" href="/favicon.ico" />
-				<link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"/>
+				{/* <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"/> */}
 				<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet"/>
 			</Head>
 

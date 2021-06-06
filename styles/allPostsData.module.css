@@ -1,0 +1,25 @@
+.blog_heading {
+    color: #fffc00;
+    font-weight: 300;
+}
+
+.blog_heading h5 {
+    opacity: 0.8;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+.blog_heading:hover h5, .blog_heading:hover .blog_date{
+    opacity: 1;
+}
+
+.blog_date {
+    font-style: normal;
+    opacity: 0.8;    
+}
+
+.footer_outer {
+      /* position:fixed;
+    bottom:0;
+    border: solid 3px pink; */
+}

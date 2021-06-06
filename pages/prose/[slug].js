@@ -1,35 +1,47 @@
-import React from 'react'
-import matter from 'gray-matter'
-import ReactMarkdown from 'react-markdown'
+import Head from 'next/head'
+import Link from 'next/link'
+import styles from '../styles/Home.module.css'
 import Nav from '../nav'
+import { getAllPostSlugs, getPostData } from '../../lib/posts'
 import Footer from '../footer'
+import Date from '../../components/date'
 
-
-function ProseTemplate({ content, data }) {
-    // This holds the data between `---` from the .md file
-    const frontmatter = data
-  
+export default function proseItem({ postData }) {
     return (
-      <>
+        <div className="outer">
         <Nav></Nav>
-        <h1>{frontmatter.title}</h1>
-        <ReactMarkdown source={content} />
-        <Footer></Footer>
-      </>
+        <section>
+            <div className={"pt-3 pb-2"}>
+                <h1 className="heading">{postData.title}</h1>
+                <p><Date dateString={postData.date}/></p>
+            </div>
+            <div>
+            <section className={"pb-3"} >
+                <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+            </section>
+            </div>
+        </section>
+
+        <Footer></Footer>   
+        </div>
     )
 }
 
-ProseTemplate.getInitialProps = async (context) => {
-    const { slug } = context.query
-
-    // Import our .md file using the `slug` from the URL
-    const content = await import(`../../content/${slug}.md`)
-
-    // Parse .md data through `matter`
-    const data = matter(content.default)
-        
-    // Pass data to our component props
-    return { ...data }
+export async function getStaticPaths() {
+    // Return a list of possible value for slug
+    const paths = getAllPostSlugs()
+    return {
+        paths,
+        fallback: false
+    }
 }
 
-export default ProseTemplate
+export async function getStaticProps({ params }) {
+    // Fetch necessary data for the blog post using params.slug
+    const postData = await getPostData(params.slug)
+    return {
+        props: {
+            postData
+        }
+    }
+}

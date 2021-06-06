@@ -5,23 +5,109 @@ body {
 
   font-family: 'Sarabun', sans-serif;
   background-color: #15113E;
+}
 
-
+.outer {
+  max-width: 760px;
+  width: 100%;
+  margin: auto;
 }
 
 a {
   color: inherit;
   text-decoration: none;
   font-style: italic;
-
-  background: linear-gradient(to bottom, #fffc00 0%, #fffc00 100%);
-	background-position: 0 100%;
-	background-repeat: repeat-x;
-	background-size: 1px 1px;
-  text-decoration: none;
 }
 
-a:hover {
+.i {
+  font-style: italic;
+}
+
+.fade {
+  opacity: 50%;
+}
+
+h1 {
+  /* font-family: 'Arbutus Slab', serif; */
+  color: #fffc00;
+  font-size: 3em; /* 48 / 16 */
+  line-height: 1em; /* 48 / 48 */
+  margin-bottom: .5em; /* 24 / 48 */
+}
+
+h2 {
+  font-size: 2.25em; /* 36 / 16 */
+  line-height: 1.333333333333333em; /* 48 / 36 */
+  margin-bottom: .6666666666666667em; /* 24 / 36 */
+}
+
+h3 {
+  font-size: 1.5em; /* 24 / 16 */
+  line-height: 1em; /* 24 / 24 */
+  margin-bottom: 1em; /* 24 / 24 */
+}
+
+h4 {
+  font-size: 1.3125em; /* 21 / 16 */
+  line-height: 1.142857142857143em; /* 24 / 21 */
+  margin-bottom: 1.142857142857143em; /* 24 / 21 */
+}
+
+h5 {
+  font-size: 1.125em; /* 18 / 16 */
+  line-height: 1.333333333333333em; /* 24 / 18 */
+  margin-bottom: 1.333333333333333em; /* 24 / 18 */
+}
+
+h6 {
+  font-size: 1em; /* 16 / 16 */
+  line-height: 1.5em; /* 24 / 16 */
+  margin-bottom: 1.5em; /* 24 / 16 */
+}
+
+p {
+  font-size: 1em; /* 16 / 16 */
+  line-height: 1.5em; /* 24 / 16 */
+  margin-bottom: 1.5em; /* 24 / 16 */
+
+  color: #F5FFFA;
+}
+
+.heading {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.subheading {
+  color: #F5FFFA;
+}
+
+.pt-3 {
+  padding-top: 3em;
+}
+
+.ptb-3 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.pb-3 {
+  padding-bottom: 3em;
+}
+
+.pb-2 {
+  padding-bottom: 2em;
+}
+
+a:not(.axe) {
+  background: linear-gradient(to bottom, #fffc00 0%, #fffc00 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 1px 1px;
+}
+
+a:not(.axe):hover {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23fffc00' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
   background-position: 0 100%;
   background-size: auto 6px;

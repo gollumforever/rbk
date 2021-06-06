@@ -4,6 +4,10 @@
     height: 100px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+
+    /* position:fixed;
+    bottom:0; */
   }
   
   .caps {
@@ -53,6 +57,7 @@
   
   .footer a:hover {
     opacity: 1;
+    background-image: none;
   }
   
   

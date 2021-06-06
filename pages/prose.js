@@ -16,16 +16,9 @@ export default function Prose({ allPostsData }) {
                     <p className="subheading">A (sometimes) loose conglomeration of my thoughts dressed into words i.e. <span className="i">meaningful stuff tends to reside in <Link href="/poems"><a>my poems</a></Link> but occasionally, I'll piece together something that's more 'everyday writing'. </span></p>
                 </div>
                 <div className={"pb-2"}>
-                    {Object.keys(allPostsData).length > 0 ?
-                    allPostsData.map(({ slug, date, title }) => (
-                        <Link href={"/prose"}>
-                        {/* <Link href={"/prose/" + slug} key={slug}> */}
-                            <a className={"axe " + styles.blog_heading}>
-                                <h5>{title}</h5>
-                                <p className={styles.blog_date}><Date dateString={date}/></p>
-                            </a>
-                        </Link>  
-                    )) : <p className={"i fade"}>Okay, so, there are no posts just yet. Check back soon?</p>}
+
+                <p className={"i fade"}>Okay, so, there are no posts just yet. Check back soon?</p>
+                   
                 </div>
             </section>
 
@@ -46,3 +39,14 @@ export async function getStaticProps() {
         }
     }
 }
+
+// {Object.keys(allPostsData).length > 0 ?
+//     allPostsData.map(({ slug, date, title }) => (
+//         <Link href={"/prose"}>
+//         {/* <Link href={"/prose/" + slug} key={slug}> */}
+//             <a className={"axe " + styles.blog_heading}>
+//                 <h5>{title}</h5>
+//                 <p className={styles.blog_date}><Date dateString={date}/></p>
+//             </a>
+//         </Link>  
+//     )) : <p className={"i fade"}>Okay, so, there are no posts just yet. Check back soon?</p>}

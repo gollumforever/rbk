@@ -9,7 +9,9 @@ export default function proseItem({ postData }) {
     return (
         <div className="outer">
         <Nav></Nav>
-        <section>
+        {Object.keys(postData).length > 0 ?
+
+            <section>
             <div className={"pt-3 pb-2"}>
                 <h1 className="heading">{postData.title}</h1>
                 <p><Date dateString={postData.date}/></p>
@@ -18,8 +20,13 @@ export default function proseItem({ postData }) {
             <section className={"pb-3"} >
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             </section>
-            </div>
-        </section>
+            </div> 
+            </section>
+
+            : 
+            <p></p>
+        
+        }
 
         <Footer></Footer>   
         </div>

@@ -18,8 +18,6 @@
     opacity: 0.8;    
 }
 
-.footer_outer {
-      /* position:fixed;
-    bottom:0;
-    border: solid 3px pink; */
+.outer {
+    padding: 0 0.5rem;
 }

@@ -26,13 +26,7 @@
 }
 
 .nav_list__items a {
-    /* background-image: none;
     color: #fffc00;
-    cursor: pointer;
-    font-weight: 600; */
-    color: #fffc00;
-
-    /* color: #F5FFFA; */
     font-size: 0.9em;
     font-weight: 300;
     line-height: 1.6;
@@ -41,7 +35,6 @@
     text-transform: uppercase;
     opacity: 0.8;
     padding: 2em 0 0em 3.5em;
-
 }
 
 .nav_list__items a:hover {
@@ -51,5 +44,14 @@
 .rbk {
     width: 70px;
     filter: drop-shadow(2px 2px 5px #D0D0D0); 
+}
+
+@media (max-width: 500px) {
+    .nav_list__items a {
+        padding: 2em 0 0em 1.5em;
+
+        
+    }
+
 }
 

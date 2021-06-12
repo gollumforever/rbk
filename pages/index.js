@@ -1,12 +1,17 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Footer from './footer'
-import Nav from './nav'
+import Footer from '../components/footer'
+import Nav from '../components/nav'
+
+Home.meta = {
+    title: "Home",
+    description: "You've arrived at the website for A Human Being, by the name of Rizwana Akmal Khan. Make yourself at home!"
+}
 
 export default function Home() {
 	return (
 		<div className={styles.container}>
-			<Head>
+			{/* <Head>
 				<title>Rizwana Akmal Khan | Home</title>
 				<meta name="description" content="You've arrived at the website for A Human Being, by the name of Rizwana Akmal Khan. Make yourself at home!"/>
 				
@@ -19,11 +24,10 @@ export default function Home() {
 				<link rel="preconnect" href="https://fonts.gstatic.com"/>
 				<link rel="shortcut icon" href="/favicon.ico" />
 				<link rel="icon" href="/favicon.ico" />
-				{/* <link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet"/> */}
 				<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet"/>
-			</Head>
+			</Head> */}
 
-			<Nav></Nav>
+			<Nav/>
 
 			<main className={styles.main}>
 				<h1 className={styles.h1}>rizwana</h1>
@@ -43,7 +47,7 @@ export default function Home() {
 					<span className={styles.lemon}>Associated with:</span>  co-founding <a href="https://projectfunction.io/">ProjectFunction</a>, working at <a href="https://vercel.com/">Vercel</a>, tweeting <a href="https://twitter.com/rizbizkits">a ton</a>.
 				</p>
 			</main>
-			<Footer></Footer>
+			<Footer/>
 		</div>
 	)
 }

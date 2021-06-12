@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className={styles.footer}>
             <p>© {new Date().getFullYear()} <span className={styles.caps}>Rizwana Akmal Khan</span></p>
             <div className={styles.footer_icons}>
-                <div>
+                <div className={styles.footer_icons__social}>
                     <a href="mailto:rizwana.akmal@hotmail.com" target="_blank" rel="noopener" aria-label="Email"><img src="/icons/mail.svg" alt="" /></a>
                     <a href="https://twitter.com/rizbizkits" target="_blank" rel="noopener" aria-label="Twitter"><img src="/icons/twitter.svg" alt="" /></a>
                     <a href="https://www.linkedin.com/in/riz" target="_blank" rel="noopener" aria-label="LinkedIn"><img src="/icons/linkedin.svg" alt="" /></a>

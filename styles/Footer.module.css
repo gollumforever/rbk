@@ -5,9 +5,8 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    padding: 0 0.5rem;
 
-    /* position:fixed;
-    bottom:0; */
   }
   
   .caps {
@@ -32,7 +31,7 @@
     justify-content: space-between;
   }
   
-  .footer a {
+  .footer_icons__social a {
     background: none;
     margin: 0 8px;
     opacity: 0.8;
@@ -46,6 +45,7 @@
   }
   
   .footer_icons__rewind a {
+    background: var(--axe);
     font-style: normal;
     line-height: 20px;
     margin: 0;

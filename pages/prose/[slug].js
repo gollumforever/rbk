@@ -1,14 +1,19 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Nav from '../nav'
 import { getAllPostSlugs, getPostData } from '../../lib/posts'
-import Footer from '../footer'
 import Date from '../../components/date'
 
+proseItem.meta = {
+    title: "A prose entry",
+    description: "A prose entry"
+}
+
+
 export default function proseItem({ postData }) {
+
     return (
         <div className="outer">
-        <Nav></Nav>
+        {/* <Nav></Nav> */}
         {Object.keys(postData).length > 0 ?
 
             <section>
@@ -28,7 +33,7 @@ export default function proseItem({ postData }) {
         
         }
 
-        <Footer></Footer>   
+        {/* <Footer></Footer>    */}
         </div>
     )
 }

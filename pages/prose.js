@@ -2,14 +2,18 @@ import { getSortedPostsData } from '../lib/posts'
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/allPostsData.module.css'
-import Nav from './nav'
+import Nav from '../components/nav'
 import Date from '../components/date'
-import Footer from './footer'
+
+Prose.meta = {
+    title: "Prose",
+    description: "A (sometimes) loose conglomeration of my thoughts dressed into words."
+}
 
 export default function Prose({ allPostsData }) {
     return (
         <div className="outer">
-            <Nav></Nav>
+            {/* <Nav></Nav> */}
             <section>
                 <div className={"pt-3 pb-2"}>
                     <h1 className="heading">Prose</h1>
@@ -23,7 +27,7 @@ export default function Prose({ allPostsData }) {
             </section>
 
             <div className={styles.footer_outer}>
-            <Footer></Footer>   
+            {/* <Footer></Footer>    */}
             </div>
         </div>
 

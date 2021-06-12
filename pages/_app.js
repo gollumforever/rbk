@@ -6,17 +6,17 @@ function MyApp({ Component, pageProps, router }) {
 	return (
 		<>
 			<Head>
-				<title>{Component.meta.title + " | Rizwana Akmal Khan"}</title>
-				<meta name="description" content={Component.meta.description} />
+				<title>{Component?.meta?.title + " | Rizwana Akmal Khan"}</title>
+				<meta name="description" content={Component?.meta?.description} />
 
 				<meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@rizbizkits" />
-				<meta name="twitter:title" content={Component.meta.title + " | Rizwana Akmal Khan"} />
-				<meta name="twitter:description" content={Component.meta.description} />
+				<meta name="twitter:title" content={Component?.meta?.title + " | Rizwana Akmal Khan"} />
+				<meta name="twitter:description" content={Component?.meta?.description} />
 				<meta name="twitter:image" content="https://rizwanakhan.com/summary_card.png" />
 
-				<meta property="og:title" content={Component.meta.title + " | Rizwana Akmal Khan"} />
-				<meta property="og:description" content={Component.meta.description} />
+				<meta property="og:title" content={Component?.meta?.title + " | Rizwana Akmal Khan"} />
+				<meta property="og:description" content={Component?.meta?.description} />
 				<meta property="og:url" content={`https://rizwanakhan.com${router.asPath}`} />
 				<meta property="og:image" content="https://rizwanakhan.com/summary_card.png" />
 

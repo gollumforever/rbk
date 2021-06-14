@@ -5,5 +5,23 @@ module.exports = {
             use: 'raw-loader',
         })
         return config
+    },
+    future: {
+        webpack5: true,
+    },
+    async redirects() {
+        return [
+            {
+                source: '/(.*)',
+                has: [
+                    {
+                        type: 'host',
+                        value: 'www.twitter.rizbizkits.com',
+                    },
+                ],
+                permanent: false,
+                destination: 'https://www.twitter.com/rizbizkits',
+            },
+        ]
     }
 }

@@ -11,22 +11,6 @@ Home.meta = {
 export default function Home() {
 	return (
 		<div className={styles.container}>
-			{/* <Head>
-				<title>Rizwana Akmal Khan | Home</title>
-				<meta name="description" content="You've arrived at the website for A Human Being, by the name of Rizwana Akmal Khan. Make yourself at home!"/>
-				
-				<meta name="twitter:card" content="summary" />
-				<meta name="twitter:site" content="@rizbizkits" />
-				<meta name="twitter:title" content="Rizwana Akmal Khan | Home" />
-				<meta name="twitter:description" content="You've arrived at the website for A Human Being, by the name of Rizwana Akmal Khan. Make yourself at home!" />
-				<meta name="twitter:image" content="https://rizwanakhan.com/summary_card.png" />
-				
-				<link rel="preconnect" href="https://fonts.gstatic.com"/>
-				<link rel="shortcut icon" href="/favicon.ico" />
-				<link rel="icon" href="/favicon.ico" />
-				<link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet"/>
-			</Head> */}
-
 			<Nav/>
 
 			<main className={styles.main}>

@@ -1,11 +1,14 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Nav.module.css'
+import Image from 'next/image'
+import rbk from '../public/rbk-lined-bright.png'
+
 
 export default function Nav() {
     return (
         <nav className={styles.nav}>            
-            <Link href="/"><a className="axe"><img src="/rbk-lined-bright.png" alt="RBK logo" className={styles.rbk}/></a></Link>
+            <Image src={rbk} alt="RBK logo" width={70} height={60}/>
 
             <ul className={styles.nav_list}>
                 <li className={styles.nav_list__items}><Link href="/prose"><a>Prose</a></Link></li>

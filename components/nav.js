@@ -8,7 +8,7 @@ import rbk from '../public/rbk-lined-bright.png'
 export default function Nav() {
     return (
         <nav className={styles.nav}>            
-            <Image src={rbk} alt="RBK logo" width={70} height={60}/>
+            <Link href="/"><a className="axe"><Image src={rbk} alt="RBK logo" width={70} height={60}/></a></Link>
 
             <ul className={styles.nav_list}>
                 <li className={styles.nav_list__items}><Link href="/prose"><a>Prose</a></Link></li>

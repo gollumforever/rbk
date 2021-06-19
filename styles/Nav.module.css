@@ -53,6 +53,7 @@
     .nav {
         padding-left: .5rem;
         padding-right: .5rem;
+        padding-top: 1em;
     }
 
     .nav_list__items a {

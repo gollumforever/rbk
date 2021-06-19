@@ -49,10 +49,14 @@
 }
 
 @media (max-width: 500px) {
+
+    .nav {
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+
     .nav_list__items a {
         padding: 2em 0 0em 1.5em;
-
-        
     }
 
 }

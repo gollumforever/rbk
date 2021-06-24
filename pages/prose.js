@@ -21,13 +21,23 @@ export default function Prose({ allPostsData }) {
                 </div>
                 <div className={"pb-2"}>
 
-                <p className={"i fade"}>Okay, so, there are no posts just yet. Check back soon?</p>
-                   
+                    {/* <p className={"i fade"}>Okay, so, there are no posts just yet. Check back soon?</p> */}
+
+                    {Object.keys(allPostsData).length > 0 ?
+                        allPostsData.map(({ slug, date, title }) => (
+                            <Link href={"/prose/" + slug} key={slug}>
+                                <a className={"axe " + styles.blog_heading}>
+                                    <h5>{title}</h5>
+                                    <p className={styles.blog_date}><Date dateString={date} /></p>
+                                </a>
+                            </Link>
+                        )) : <p className={"i fade"}>Okay, so, there are no posts just yet. Check back soon?</p>}
+
                 </div>
             </section>
 
             <div className={styles.footer_outer}>
-            {/* <Footer></Footer>    */}
+                {/* <Footer></Footer>    */}
             </div>
         </div>
 

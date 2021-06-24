@@ -88,12 +88,16 @@ h6 {
   margin-bottom: 1.5em; /* 24 / 16 */
 }
 
-p {
+p, li {
   font-size: 1em; /* 16 / 16 */
   line-height: 1.5em; /* 24 / 16 */
   margin-bottom: 1.5em; /* 24 / 16 */
 
   color: #F5FFFA;
+}
+
+ul {
+  padding-left: 1em;
 }
 
 .heading {

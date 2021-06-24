@@ -19,6 +19,14 @@ module.exports = {
                 permanent: false,
                 destination: 'https://www.twitter.com/rizbizkits',
             },
+            {
+                source: '/feeling-22',
+                destination: 'https://v1.rizwanakhan.com/feeling-22'
+            },
+            {
+                source: '/beyond-them-20s',
+                destination: 'https://v1.rizwanakhan.com/beyond-them-20s'
+            }
         ]
     }
 }

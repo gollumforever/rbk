@@ -4,8 +4,8 @@ import { getAllPostSlugs, getPostData } from '../../lib/posts'
 import Date from '../../components/date'
 
 proseItem.meta = {
-    title: "Turning 23",
-    description: "A birthday post"
+    title: "6 Months at Vercel",
+    description: "A rizbizkits reflection"
 }
 
 

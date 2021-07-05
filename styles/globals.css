@@ -23,6 +23,10 @@ body {
   padding: 0 0.5rem;
 }
 
+.outer h3 {
+  color: #fffc00;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -90,8 +94,9 @@ h6 {
 
 p {
   font-size: 1em; /* 16 / 16 */
-  line-height: 1.5em; /* 24 / 16 */
+  line-height: 1.6em; /* 24 / 16 */
   margin-bottom: 1.5em; /* 24 / 16 */
+  letter-spacing: 0.02em;
   color: #F5FFFA;
 }
 
@@ -99,7 +104,8 @@ li {
   font-size: 1em; /* 16 / 16 */
   line-height: 1.5em; /* 24 / 16 */
   color: #F5FFFA;
-  margin-bottom: 1.5em; /* 24 / 16 */
+  margin-bottom: 0.9em; 
+  /* 24 / 16 */
 
 }
 

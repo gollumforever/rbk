@@ -37,7 +37,7 @@ _The following is an uneditted list._
 - That communication is akin to magic.
 - That the work isn't everything.
 
-Perhaps, this is evident when I reflect on a few of my standout memories: participating and winning 1st place in a weeklong company-wide Hack Week (with a remarkable gang of 3), shipping [this](https://twitter.com/rauchg/status/1378101310055047168) feature to improve the lives of our customers, serendipitously chattering with a randomised person in the org every other week, witnessing Next.js conf (special edition) come to live behind-the-scenes, shaping my career and sharing my fears with a stellar career coach, as well as learning and executing _Customer Success_ with a kind and friendly team on a **daily basis**.  
+Perhaps, this is evident when I reflect on a few of my standout memories: participating and winning 1st place in a weeklong company-wide Hack Week (with a remarkable gang of 3), shipping [this](https://twitter.com/rauchg/status/1378101310055047168) feature to improve the lives of our customers, serendipitously chattering with a randomised person in the org every other week, witnessing Next.js conf (special edition) come to live behind-the-scenes, shaping my career and sharing my fears with a stellar career coach (👋 hi, Lucy!), as well as learning and executing _Customer Success_ with a kind and friendly team on a **daily basis**.  
 
 _Note-to-self: remain incredibly in awe and appreciative of life._
 

@@ -13,22 +13,22 @@ module.exports = {
         has: [
           {
             type: "host",
-            value: "www.twitter.rizbizkits.com",
+            value: "www.twitter.rizwanakhan.com",
           },
         ],
         permanent: false,
-        destination: "https://www.twitter.com/rizbizkits",
+        destination: "https://www.twitter.com/rizwanakhan",
       },
       {
         source: "/(.*)",
         has: [
           {
             type: "host",
-            value: "www.memes.rizbizkits.com",
+            value: "www.memes.rizwanakhan.com",
           },
         ],
         permanent: false,
-        destination: "www.rizbizkits.com/memes",
+        destination: "www.rizwanakhan.com/memes",
       },
       {
         source: "/feeling-22",

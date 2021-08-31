@@ -1,11 +1,12 @@
 ---
 title: "Commitment + Consistency"
 date: "2021-08-31"
+description: "Sharing my framework for improvement in my career"
 ---
 
 Usually, when asked what I wish my superpower would have been, I answer 'a great singing voice'. After all, as a kid, there was a moment when the penny dropped that 'my melodious voice' was actually, in fact, not melodious in the slightest!
 
-These days, from the list of less fun superpowers, I would choose to walk the isles of wherever Commitment and Consistency are stored. _"Why?!"_, you may ask. Because, time and time again _'achieving anything'_, in actuality, is the result of someone making a conscious decision to work towards that anything (commitment), a little by little (consistency); a staircase is as much _'individual steps'_ as _'individual steps'_ becomes a staircase.
+These days, from the list of less fun superpowers, I would choose to walk the isles of wherever _Commitment_ and _Consistency_ are stored. _"Why?!"_, you may ask. Because, time and time again _'achieving anything'_, in actuality, is the result of someone making a conscious decision to work towards that anything (commitment), a little by little (consistency); a staircase is as much _'individual steps'_ as _'individual steps'_ becomes a staircase.
 
 Lately, I've been trying to follow this framework as part of my professional career. Finding myself easily daunted by the first sign of a _'complex'_ programming problem, I have daydreamed for that one day when the missing puzzle piece would fall into place and I would feel somewhat technically invincible (a.k.a. competent). More often than not, Women in STEM are already (wrongly) believed to be less technical by many; even after 4 years of a Computer Science degree, I marvel at how quickly I end up feeling like an imposter.
 

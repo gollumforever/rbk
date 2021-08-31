@@ -1,7 +1,7 @@
 ---
 title: "Commitment + Consistency"
 date: "2021-08-31"
-description: "Sharing my framework for improvement in my career"
+description: "A framework for achieving anything"
 ---
 
 Usually, when asked what I wish my superpower would have been, I answer 'a great singing voice'. After all, as a kid, there was a moment when the penny dropped that 'my melodious voice' was actually, in fact, not melodious in the slightest!

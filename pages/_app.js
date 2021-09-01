@@ -32,10 +32,15 @@ function MyApp({ Component, pageProps, router }) {
           ""
         )}
 
-        <meta
-          property="og:description"
-          content={Component?.meta?.description}
-        />
+        {Component?.meta?.description ? (
+          <meta
+            property="og:description"
+            content={Component?.meta?.description}
+          />
+        ) : (
+          ""
+        )}
+
         <meta
           property="og:url"
           content={`https://rizwanakhan.com${router.asPath}`}

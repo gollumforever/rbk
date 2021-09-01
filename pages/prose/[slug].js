@@ -12,6 +12,7 @@ export default function proseItem({ postData }) {
   return (
     <>
       <Head>
+        <title>{postData.title}</title>
         <meta
           property="og:title"
           content={postData.title + " | Rizwana Akmal Khan"}

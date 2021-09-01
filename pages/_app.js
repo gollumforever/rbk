@@ -23,11 +23,15 @@ function MyApp({ Component, pageProps, router }) {
           name="twitter:image"
           content="https://rizwanakhan.com/summary_card.png"
         />
+        {Component?.meta?.title ? (
+          <meta
+            property="og:title"
+            content={Component?.meta?.title + " | Rizwana Akmal Khan"}
+          />
+        ) : (
+          ""
+        )}
 
-        <meta
-          property="og:title"
-          content={Component?.meta?.title + " | Rizwana Akmal Khan"}
-        />
         <meta
           property="og:description"
           content={Component?.meta?.description}

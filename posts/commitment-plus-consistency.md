@@ -14,7 +14,7 @@ I am certain many of you reading this would relate to such a feeling, we are esp
 
 Thus, in defiance, by marrying my motivation to succeed with the discipline found through working with a career coach, I have placed myself right in the center of all this, on purpose. In simpler terms, you'll find me doing the following more often _(take everything with a pinch of salt but feel free to use this as inspo for your careers and if you do? please let me know!)_
 
-### Leet (Riz) Code.
+### Leet (Riz) Code
 
 I know leet code is a weird one. People (and companies) take these too seriously and spend every waking hour flexing about how great they are at solving them. They forget that programming isn't just about programming, a good coder must work on building a whole bucket of other skills (such as being a good listener, learning to work in sync with others, understanding and avoiding causing harm as a result of technological solutions etc.). Too much of anything is bad for you and we all know it.
 

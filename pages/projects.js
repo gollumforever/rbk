@@ -14,7 +14,7 @@ export default function Projects() {
           <p className={"i fade"}>
             Sit tight, this page isn't ready just yet. Check back soon?
           </p>
-          <p>test - 1</p>
+          <p>test - 2</p>
         </div>
       </section>
     </div>

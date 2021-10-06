@@ -26,6 +26,8 @@ There is no denying a side project has a lot of potential. You, as the owner of 
 
 I plan to find or start such a side project again. I'm currently choosing what to commit to so if you have any project ideas you'd like to share, please reach out.
 
+_Update [06/10/21]: I'm working on building &#8962; [timezones.fyi](https://www.timezones.fyi/)!_
+
 ### Work
 
 This one is more specific to my day job as a Success Engineer so it might not apply to your situation but I wanted to share it briefly, nonetheless. Based on my own goals and what's needed to succeed as a team and org, I have chosen to delibrately be mindful and grow in the following ways:

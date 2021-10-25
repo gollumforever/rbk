@@ -11,7 +11,7 @@ export default function Projects() {
         <div className="outer">
         <section>
             <div className={"pt-3 pb-2"}>
-                <p className={"i fade"}>Sit tight, this page isn't ready just yet. Check back soon?</p>
+                <p className={"i fade"}>Sit tight, this page isn't ready just yet! Check back soon?</p>
             </div>
         </section>
 
